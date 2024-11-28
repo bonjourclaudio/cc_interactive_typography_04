@@ -20,7 +20,7 @@ function setup() {
   pg.textAlign(CENTER, CENTER);
   pg.textSize(width);
   pg.fill(255);
-  pg.text('Q', pg.width / 2, pg.height / 2);
+  pg.text('↖', pg.width / 2, pg.height / 2);
 }
 
 function draw() {
@@ -51,7 +51,7 @@ function draw() {
       strokeWeight(3);
       textSize(64)
 
-      text("a", posX - dist(posX, posY, mouseX, mouseY), posY + dist(posX, posY, mouseX, mouseY))
+      text("↗", posX - dist(posX, posY, mouseX, mouseY), posY + dist(posX, posY, mouseX, mouseY))
     }
   }
 
